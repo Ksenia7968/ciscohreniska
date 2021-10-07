@@ -1,3 +1,4 @@
+'''
 hostname R1
 ip domain-name wsr.lol 
 crypto key generate rsa
@@ -6,4 +7,5 @@ no sh
 username admin privilege 15 secret cisco
 line vty 0 15 
 login local
-transport input ssh 
+transport input ssh
+'''
